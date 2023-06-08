@@ -1,2 +1,2 @@
 #!/bin/bash
-cd
+print working directory
