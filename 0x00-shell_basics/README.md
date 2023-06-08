@@ -10,4 +10,6 @@ mv (Moves files or rename files)
 rm (remove files and directories)
 rmdir 
 cd -
-ls -la .. 
+ls -la ..
+file 
+echo  
