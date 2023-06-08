@@ -1,2 +1,3 @@
 #!/bin/bash
-print working directory
+pwd (print working directory)
+ls (list files and directories)
