@@ -8,4 +8,5 @@ ls -a -n
 mkdir (create directories)
 mv (Moves files or rename files)
 rm (remove files and directories)
-rmdir  
+rmdir 
+cd .. 
