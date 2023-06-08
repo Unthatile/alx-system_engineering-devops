@@ -8,8 +8,8 @@ ls -a -n
 mkdir (create directories)
 mv (Moves files or rename files)
 rm (remove files and directories)
-rmdir 
-cd -
+rmdir (Remove or delete directory)
+cd -(Switch to the user to the previous directory)
 ls -la ..
-file 
-echo  
+file (classify a files contents)
+ln -s (Create links between files or directories)  
