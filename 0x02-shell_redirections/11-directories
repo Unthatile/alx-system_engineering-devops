@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type d -not -path '*/\.*' -print0 | tr -dc '\0' | wc -c
