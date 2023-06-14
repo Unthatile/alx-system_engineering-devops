@@ -8,3 +8,4 @@ describing what each script is doing
 4. echo $PATH | tr ':' '\n' | wc -l - This command will print the number of directories in your PATH environment variable. The tr ':' '\n' command replaces all colons with newlines so that each directory is on a separate line. The wc -l command counts the number of lines.
 5. printenv - To list all environment variables in the shell, you can use the printenv command.
 6. set - To list all shell variables, you can use the set command.
+7. BEST = "School" - This script creates a new variable named “BEST” and assigns it the string value “School”. You can use this variable later in your code to store and manipulate data.
