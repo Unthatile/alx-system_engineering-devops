@@ -7,5 +7,5 @@ describing what each script is doing
 3. export PATH=$PATH:/action - To add a directory to the PATH in shell, you can use the export command to add a directory to the $PATH variable temporarily or edit the shell configuration files to make the change permanent. In Linux, you can edit the .bashrc file in the Home directory to add a directory to the path permanently.
 4. echo $PATH | tr ':' '\n' | wc -l - This command will print the number of directories in your PATH environment variable. The tr ':' '\n' command replaces all colons with newlines so that each directory is on a separate line. The wc -l command counts the number of lines.
 5. printenv - To list all environment variables in the shell, you can use the printenv command.
-6. set - To list all shell variables, you can use the set command.
-7. BEST = "School" - This script creates a new variable named “BEST” and assigns it the string value “School”. You can use this variable later in your code to store and manipulate data.
+6. To list all shell variables, you can use the set command.
+7. BEST="School" -  a script that creates a new local variable. Name: BEST Value: School.
