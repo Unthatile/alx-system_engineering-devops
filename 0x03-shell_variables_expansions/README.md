@@ -19,3 +19,4 @@ Describing What Each Script Is Doing
 14. printf "%x\n" $DECIMAL - The number in base 10 is stored in the environment variable DECIMAL. The script uses the printf command to convert the decimal number to hexadecimal.
 15. tr 'A-Za-z' 'N-ZA-Mn-za-m' - This script uses the tr command to perform the rot13 encryption. The tr command is used to translate or delete characters. In this case, it translates all alphabetic characters by 13 positions in the alphabet.
 16. paste -d, - - | cut -d, -f1 - a script that prints every other line from the input, starting with the first line.
+17. echo $(printf "%o\n" $(( $((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))) )) | tr '01234567' 'bestchol') - a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result. WATER is in base water. STIR is in base stir. The result should be in base bestchol.
